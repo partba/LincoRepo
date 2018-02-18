@@ -1,0 +1,267 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(pic.jpg);
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+	margin-top:120px;
+}
+.site{
+	display:grid;
+	grid-template-columns: 30% 10% 50% 10%;
+	grid-template-rows: 0.7fr 0.4fr 8fr 0.2fr;
+	grid-template-areas:
+	". index-title index-title ."
+	". index-masthead index-masthead ."
+	". index-sidebar index-content ."
+	". index-footer index-footer. ";
+	height: 40vh;
+}
+.page-title{
+	grid-area: index-title;
+}
+.masthead{
+	grid-area: index-masthead;
+	
+}
+.main-content{
+	grid-area: index-content;
+}
+.sidebar{
+	grid-area: index-sidebar;
+}
+.footer{
+	grid-area: index-footer;
+}
+.green{
+	/*TITLE*/
+	background-color: white;
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+.red{
+	/*SUB-TITLE*/
+	color:white;
+	background-color:#329900;
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+.blue{
+	/*MAIN CONTENT*/
+	background: rgb(17,40,195,0.2);
+	width:100%;
+	height:100%;
+	color: white;
+	font-family:"Garamond", Times New Roman;
+	font-size: 16px;
+}
+.purple{
+	/*SIDEBAR*/
+	width:100%;
+	height:100%;
+}
+.yellow{
+	/*FOOTER*/
+	background-color: white;
+	width:100%;
+	height:100%;
+	font-size: 10px;
+	text-align: center;
+}
+.purple button{
+	font-family:"Roboto", sans-serif;
+	text-transform:uppercase;
+	width:100%;
+	height: 24.6%;
+	background: rgb(17,40,100,0.1);
+	color: #FFFFFF;
+	font-size: 12px;
+	cursor:pointer;
+	margin-bottom: 1px;
+}
+.type-msg{
+    font-family:"Roboto", sans-serif;
+	width: 85%;
+	font-size: 12px;
+	padding: 2px;
+	background: white;
+}
+.type-res{
+    font-family:"Roboto", sans-serif;
+	width: 85%;
+	font-size: 12px;
+	padding: 2px;
+	background: rgb(240,240,240);
+}
+.allsenders{
+    font-family:"Roboto", sans-serif;
+	width: 86%;
+	font-size: 12px;
+	padding: 2px;
+	background: white;
+}
+.message-form{
+	width: 100%;
+	text-align: left;
+}
+.btn-msgSubmit{
+	width: 70px;
+	height: 20px;
+	border: none;
+	margin-right: -3px;
+	background-color:#D5DDFD;
+}
+.btn-del{
+	width: 70px;
+	height: 20px;
+	border: none;
+	margin-right: -3px;
+	margin-left:-3.5px;
+	background-color:#D5DDFD;
+}
+.btn-msgClear{
+	width: 70px;
+	height: 20px;
+	border: none;
+	background-color:#D5DDFD;
+}
+.label-view{
+	padding: 4px 2px;
+	margin-top: 0px;
+	color:darkkhaki;
+}
+.message-form button{
+	font-family:"Roboto", sans-serif;
+	text-transform:uppercase;
+	color: black;
+	font-size: 12px;
+	cursor:pointer;
+}
+.login-page{
+	width: 360px;
+	padding: 7% 0 0;
+	margin: auto;
+}
+.form{
+	position: relative;
+	z-index: 1;
+	background: rgb(7,40,195,0.1);
+	text-align: left;
+	
+}
+.form input{
+	font-family:"Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	/*padding: 15px;*/
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button{
+	font-family:"Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #19334d; /*rgb(17,40,100,0.2);*/
+	width: 100%;
+	border: 0px;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+	margin:2px;
+}
+.message{
+	margin-bottom: 4px;
+	color:cadetblue;
+	
+}
+.message-reg{
+	margin-bottom: 4px;
+	color:#E2FFC1;
+}
+.Opp-system{
+	width: 200px;
+	height: 100px;
+	float:left;
+	padding-left: 20px;
+}
+.ai-stations{
+	width: 350px;
+	height: 100px;
+	float:left;
+	padding-left: 20px;
+}
+.ai-trackwork{
+	width: 220px;
+	height: 100px;
+	float:left;
+	padding-left: 20px;
+}
+.ai-others{
+	width: 100%;
+	height: 100px;
+	float:left;
+	padding-left: 2px;
+}
+.language{
+	width: 240px;
+	height: 100px;
+	float:left;
+	padding-left: 20px;
+}
+.database{
+	float:left;
+	width:240px;
+	height: 100px;
+	padding-left: 20px;
+}
+.experience{
+	
+	width: 100%px;
+	padding-left: 20px;
+}
+
+.ipd2-others{
+	width: 100%;
+	height: 100px;
+	float:left;
+	padding-left: 2px;
+}
+.welcome{
+    font-family:"Roboto", sans-serif;
+    color:green;
+    font-size: 14px;
+}
+.menubutton{
+    height: 24.6%;
+    background:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
