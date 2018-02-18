@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+{% block body %}
+<head>
+	<title> Feedback from {{user}} </title>
+	<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type=text/javascript>
+			$(function() {
+			  $('a#process_input').bind('click', function() {
+			  	if (document.getElementById('inputmsg').value!= ""){
+			  		$.getJSON('/send_msg', {
+					  inputmsg: $('textarea[name="inputmsg"]').val(),
+					}, function(data) {
+					  $("#result").text(data.result);
+					});
+					var totalmsg = ' ' + $('#username').val() + ': ' + $('#inputmsg').val();
+					$('#output').append(totalmsg + '\n');
+					document.getElementById('inputmsg').value = "";
+					return false;
+				}else{ alert('Please enter your response'); return false;}
+			  });
+			});
+			function clearInput(){document.getElementById('textclear').value = ""; return false;}
+
+	</script>
+</head>
+
+<body>
+	<div class="outer">
+		<div class="site">
+			<h2 class="page-title">
+				<div class="green">Feedback from {{user}}</div>
+			</h2>
+			<header class="masthead">
+				<div class="red"><h3></h3></div>
+			</header>	
+			<main class="main-content">
+				<div class="blue">
+					<p>Please type your feedback here:</p>
+					<form name="myform" class="message-form">
+						<textarea name=inputmsg id="inputmsg" class="type-msg" cols="48.9" rows="2" ></textarea>
+						<div class="btns">
+							<a href=# id="process_input"><button class="btn-msgSubmit" >Submit</button></a>
+							<button onclick="clearInput()" id="textclear" class="btn-msgClear">Clear</button>
+						</div>
+						<hr>
+						<div class="label-view"><p>Message Sent:</p></div>
+					</form>
+					<div class="view-msg">
+						<input type="hidden" name="username" id="username" value={{user}}>
+						<textarea name="outputmsg" id="output" class="type-msg" cols="48.9" rows="10">{% for r in results %} {{r[0]}}&#13;&#10;{% endfor %}</textarea>
+					</div>
+				</div>
+			</main>
+			<aside class="sidebar">
+				<div class="purple">
+					<a href="/home"><button>Home</button></a>
+					<a href="/profile"><button>Profile</button></a>
+					<a href="/projects"><button>Projects</button></a>
+					<a href="/"><button>Log out</button></a>
+				</div>
+			</aside>
+			<footer class="footer">
+				<div class="yellow">
+				<p>Copyright &copy; letmetry000webhost.com</p>
+				</div>
+			</footer>	
+		</div>
+	</div>
+
+</body>
+{% endblock %}
+</html>
