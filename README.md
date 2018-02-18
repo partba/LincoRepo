@@ -1,3 +1,1 @@
-# LincoRepo
 
-This file is for test purpose. pls ignore this...
