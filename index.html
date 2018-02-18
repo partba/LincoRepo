@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+	<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+	<div class="login-page">
+	<div class="form">
+		<form action="/login" class="Login-form" method="post">
+			<p class="message">Login to Lincoln's Portfolio</p>
+			<input type="text" placeholder="user name " name="username"/>
+			<input type="password" placeholder="password" name="password"/>
+			<button>Login</button>
+			<p class="message">{{response}}</p>
+			<p class ="message">Not Registered? <a href ="registration" class ="message-reg">Register</a></p>
+		</form>
+
+	</div>
+	</div>
+</body>
+</html>
