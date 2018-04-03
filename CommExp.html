@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Experience</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+        <script src="static/jquery.min.js"></script>
+        <script>
+            var mytech = new Array();
+            var i=0;
+            function showExperience(id){
+                $(document).ready(function() {
+                $.ajax({
+                        type: 'GET',
+                        url: 'static/library.xml',
+                        dataType: 'xml',
+                        success: function(xml) {
+                            $(xml).find('List').each(function() {
+                                var selectBox = document.getElementById(id);
+                                var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+                                    //alert('selectedValue:' + selectedValue);
+                                    //alert('xml value:' + ($(this).find('Project').text()));
+                                    //search project at first
+                                    if($(this).find('Project').text() === selectedValue){
+                                       //resetting the variables for each new operation
+                                       mytech = [];
+                                       mytech.length = 0;
+                                       document.getElementById("highlights").value = '';
+                                       document.getElementById("yearsExp").value = '';
+
+                                       // loading project description
+                                       document.getElementById("Description").value = $(this).find('Description').text();
+                                        //first remove then add items
+                                        $(all_tech)
+                                            .find('option')
+                                            .remove()
+                                            .end();
+                                        //looping through technologies
+                                        $(all_tech).append('<option>' + '-- Choose one --' + '</option>');
+                                        $(this).find('Technology').each(function(){
+                                            //loading technologies
+                                            $(all_tech).append('<option>' + $(this).find('Name').text() + '</option>');
+                                            //storing tech specific attributes
+                                            mytech[i]={
+                                                'Name':$(this).find('Name').text(),
+                                                'Highlights':$(this).find('Highlights').text(),
+                                                'Years':$(this).find('Years').text()};
+                                                //incrementing list
+                                                i++;
+                                       });
+                                    }
+                            });
+                        },
+                    error: function(status) {
+                        alert(status);
+                    }
+                });
+                });
+            }
+            // detail technology used
+            function getAttri(element_id){
+                var selectTecBox = document.getElementById(element_id);
+                var techValue = selectTecBox.options[selectTecBox.selectedIndex].value;
+                mytech.forEach(function(list){
+                    if(list['Name'] === techValue){
+                       document.getElementById("highlights").value = list['Highlights'];
+                       document.getElementById("yearsExp").value = list['Years'];
+                    }
+                });
+            }
+            function clearFields(){document.getElementById("all_projects").value='';document.getElementById("Description").value='';document.getElementById("all_tech").value='';document.getElementById("highlights").value = '';document.getElementById("yearsExp").value = '';}
+        </script>
+
+    </head>
+    <body onload="clearFields()">
+        <div class="outer">
+            <div class="site">
+                <h2 class="page-title">
+                    <div class="green">My Profile as 'Web Developer'</div>
+                </h2>
+                <header class="masthead">
+                    <div class="red"><font color="white">Lincoln BARUA, 4 Clanwilliam St, Eastwood NSW 2122, E-mail: callbarua@hotmail.com, Mobile: 0416680533</font></div>
+                </header>
+                <main class="main-content">
+                    <div class="blue">
+                        <p>Commercial Projects</p><hr>
+                        <select id="all_projects" style="height:27px;width:53%;" onchange="showExperience('all_projects')">
+                            <option value="">-- Select a Project --</option>
+                            <option>Toll-Bridge Operation System Development</option>
+                            <option>Online Payment Challan Verification System</option>
+                            <option>Customer Feedback System - CRM</option>
+                            <option>Fast-Track Delivery System - SCM</option>
+                            <option>Online Hotel Booking System</option>
+                            <option>SCM-Inventory System</option>
+                        </select>
+                        <p>Description</p>
+                        <textarea readonly id="Description" rows="7" cols="13" style="resize:none;min-width:90%;background:#F0F0F0;font-size:14px;font-family:Arial,Garamond;"></textarea>
+                        <p>Tecnology Used</p><hr>
+                        <select id="all_tech" style="height:27px;width: 53%;" onchange="getAttri('all_tech');">
+                            <option value="">-- Choose one --</option>
+                        </select>
+                        <p>Highlights</p>
+                        <textarea readonly id="highlights" rows="4" cols="13" style="resize:none;min-width:90%;background:#F0F0F0;font-size:14px;font-family:Arial,Garamond;"></textarea>
+                        <p>Years of Experience</p>
+                        <textarea readonly id="yearsExp" style="height:20px;resize:none" cols="15"></textarea>
+                        <p style="font-size:15px;font-family:Arial,Garamond;">(Please download full pdf version: <a href="/static/commercialExp.pdf" download class="message-reg">commercial-Experience.pdf)</a></p>
+
+                    </div>
+                </main>
+                <aside class="sidebar">
+                    <div class="purple">
+                        <a href="/profile"><button>Profile</button></a>
+                        <a href="/projects"><button>Projects</button></a>
+                        <a href="/feedback"><button>Feedback</button></a>
+                        <a href="/"><button>Log out</button></a>
+                    </div>
+                </aside>
+                <footer class="footer">
+                    <div class="yellow">
+                    <p>Copyright © www.linksportfolio.info</p>
+                    </div>
+                </footer>
+            </div>
+
+        </div>
+
+    </body>
+</html>
