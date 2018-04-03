@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!--  Last edited by http://encodedna.com  -->
+<Experience>
+    <List>
+		<Project>Toll-Bridge Operation System Development</Project>
+		<Description>The project is on Python-Flask-MySQL framework designed for government authority to perform toll bridge operation efficiently with development work.</Description>
+		<Technology>
+			<Name>Python3.6-Flask</Name>
+			<Highlights>Achievements:&#xA;Modifying server side logic to bridge gap between front and back-end data source as per upgrade requirements.</Highlights>
+			<Years>5 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>HTML4/CSS2</Name>
+			<Highlights>Achievements:&#xA;Performing site maintenance and required upgrades.</Highlights>
+			<Years>5 years</Years>
+		</Technology>
+		<Technology>
+			<Name>JavaScript (JQuery)</Name>
+			<Highlights>Achievements:&#xA;Integrating new data sets using JSON, XML and JavaScript (JQuery) with IDEs: NetBeans8.2, WordPress4.9 and Visual studio17</Highlights>
+			<Years>4 years</Years>
+		</Technology>
+	</List>
+	<List>
+		<Project>Online Payment Challan Verification System</Project>
+		<Description>It's a financial project.&#xA;&#xD;‘Challan’ is most widely used name of a banking deposit in Bangladesh, where customers can make manual deposit into government fund in the form of cash or cheque for any services they require from the government. This online verification system is a third party tool, designed and implemented under the authority of Bangladesh Bank to confirm those manual deposits electronically as and when needed. This system has been used successfully by many agencies (private/government) in Bangladesh, where payment verification is prerequisite before any official process takes place. Some most common uses of ‘Challan(s)’ are fee for submitting government tenders, licences, taxes etc.&#xA;&#xD;My Roll was an 'all-stack web developer' in this project.</Description>
+		<Technology>i
+			<Name>HTML4/CSS2</Name>
+			<Highlights>Achievements:&#xA;I.Successful layout design of entire website, using CSS Float properties.&#xA;II.Efficient data manipulation and integration from various back end data sources.&#xA;III.Efficient site maintenance, while scaling up services like email notification etc.</Highlights>
+			<Years>5 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>Python-Django</Name>
+			<Highlights>Achievements:&#xA;I.Gather requirements from end users and stakeholders.&#xA;II.Using Python-Django framework code to connect front with back end SQL Server.&#xA;III.Successful creation of business logic (Middle-Tier) as per requirements.</Highlights>
+			<Years>4 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>JavaScript (JQuery)</Name>
+			<Highlights>Achievements:&#xA;I.Smooth implementation of features (UI/UX) as per user requirements.&#xA;II.Building reusable code like reading XML files,input validations etc.&#xA;III.Assured all user input is checked before submitting to the backend services.</Highlights>
+			<Years>4 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>Tomcat application server</Name>
+			<Highlights>Responsible for server configuration during development</Highlights>
+			<Years>3 Years</Years>
+		</Technology>
+
+	</List>
+	<List>
+		<Project>Customer Feedback System - CRM</Project>
+		<Description>Involved in upgrading customer feedback system for ‘Hyundai Cement Ltd.’ Core technologies used were Java-Spring Framework with MS SQL Server 10 as back end data source.</Description>
+		<Technology>
+			<Name>Java-Spring</Name>
+			<Highlights>Achievements:&#xA;I.Writing clean maintainable server-side business logic in multi-layer architecture using OOP.</Highlights>
+			<Years>5 years</Years>
+		</Technology>
+		<Technology>
+			<Name>HTML4/CSS2</Name>
+			<Highlights>Achievements:&#xA;I.Actively participate in UI/UX design in planning activities.&#xA;II.Actively participate in UI/UX design in planning activities.</Highlights>
+			<Years>5 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>MS SQL Server10</Name>
+			<Highlights>Achievements:&#xA;I.Designing the database using RDBMS and normalization.&#xA;II.Creating SQL queries, stored procedures and triggers.</Highlights>
+			<Years>5 Years</Years>
+		</Technology>
+	</List>
+	<List>
+		<Project>Fast-Track Delivery System - SCM</Project>
+		<Description>Worked in a client project called ‘Fast-track’, which was for a delivery company in Bangladesh. The whole purpose of this project was to track their deliveries efficiently in real time. The product was developed and implemented in 2-tier client-server architecture using Visual Basic6.0 with MS SQL Server 7 as back end database.</Description>
+		<Technology>
+			<Name>Visual Basic6.0</Name>
+			<Highlights>Achievements:&#xA;I.Present innovative ideas for data input for system improvements using UI/UX design.&#xA;II.Participate in OOP, design, coding, testing (using Rational Rose and bug fixing)&#xA;III.Configuring product installation, version control, code review (for upgrades) and documenting analysis and design.</Highlights>
+			<Years>8 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>MS SQL Server7.0</Name>
+			<Highlights>Achievements:&#xA;I. Writing SQL queries and stored procedures.</Highlights>
+			<Years>5</Years>
+		</Technology>
+		<Technology>
+			<Name>JSone</Name>
+			<Highlights>coming soon...</Highlights>
+			<Years>1</Years>
+		</Technology>
+	</List>
+	<List>
+		<Project>Online Hotel Booking System</Project>
+		<Description>coming soon... </Description>
+		<Technology>
+			<Name>PHP-Laravel</Name>
+			<Highlights>PHP Server side coding. coming soon...</Highlights>
+			<Years>3 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>PhpMyAdmin</Name>
+			<Highlights>coming soon...</Highlights>
+			<Years>5</Years>
+		</Technology>
+		<Technology>
+			<Name>JSON/XML</Name>
+			<Highlights>coming soon...</Highlights>
+			<Years>3 years</Years>
+		</Technology>
+	</List>
+	<List>
+		<Project>SCM-Inventory System</Project>
+		<Description>coming soon... </Description>
+		<Technology>
+			<Name>Java-Spring</Name>
+			<Highlights>Adopting web tech. Coming soon...</Highlights>
+			<Years>5 Years</Years>
+		</Technology>
+		<Technology>
+			<Name>Visual Basic</Name>
+			<Highlights>coming soon...</Highlights>
+			<Years>8 years</Years>
+		</Technology>
+		<Technology>
+			<Name>JavaScript (JQuery)</Name>
+			<Highlights>coming soon...</Highlights>
+			<Years>4 years</Years>
+		</Technology>
+	</List>
+</Experience>
