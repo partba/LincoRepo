@@ -3,43 +3,43 @@
 <Experience>
     <List>
 		<Project>Toll-Bridge Operation System Development</Project>
-		<Description>The project is on Python-Flask-MySQL framework designed for government authority to perform toll bridge operation efficiently with development work.</Description>
+		<Description>This project was built on Python-Django framework, using MySQL as back end database. It was solely designed for ‘Bridge Authority Bangladesh’ to perform their electronic toll operations as well as connecting other departments in the government. This site also provided useful information on new bridges, under developments, sanctions, list of criteria to be approved vendors etc. The initial scope of this project met successfully in December 2012. However, in later date this site was having massive upgrades, add-ons and serving as a gateway.&#xA;&#xD;My Role: As a web developer site maintenance and upgrades relating back-end development.</Description>
 		<Technology>
-			<Name>Python3.6-Flask</Name>
-			<Highlights>Achievements:&#xA;Modifying server side logic to bridge gap between front and back-end data source as per upgrade requirements.</Highlights>
+			<Name>Python 3.6 - Django Framework</Name>
+			<Highlights>Achievements:&#xA;I. Developed business rules for toll operations as well as account management as per SRS.&#xA;II. Data extraction and manipulation for periodic report from excel, JSON and XML file formats using IDEs: PyCharm, NetBeans8.2 and Visual studio17. &#xA;III. Provided customer assistance pertaining database queries and complaints.</Highlights>
 			<Years>5 Years</Years>
 		</Technology>
 		<Technology>
 			<Name>HTML4/CSS2</Name>
-			<Highlights>Achievements:&#xA;Performing site maintenance and required upgrades.</Highlights>
+			<Highlights>Achievements:&#xA;I.Successful site maintenance and upgrades.&#xA;II.Clarify all internal external links are in operation.&#xA;III. Consult all upgrades/plugins maintain browser compatibility.&#xA;IV. Observe website regularly and ensure its fully functional.&#xA;V. Maintain periodic backup, oversee version control (Git Repository).</Highlights>
 			<Years>5 years</Years>
 		</Technology>
 		<Technology>
-			<Name>JavaScript (JQuery)</Name>
-			<Highlights>Achievements:&#xA;Integrating new data sets using JSON, XML and JavaScript (JQuery) with IDEs: NetBeans8.2, WordPress4.9 and Visual studio17</Highlights>
+			<Name>JavaScript,JQuery,JSON,XML,IDEs</Name>
+			<Highlights>Achievements:&#xA;I. Consolidated and directed HTML behaviours into CSS file.&#xA;II. Modelled, populated and processed JSON/XML data as per external requirements.&#xA;III. Evaluated and collected 3rd party website information as per Tag-Ids using WordPress.&#xA;IV. Maintained OS/browser compatibility by analysing, upgrading script (HTML/JavaScript /Python) using IDEs (NetBeans8.2, Visual Studio 2017 and PyCharm 2017).</Highlights>
 			<Years>4 years</Years>
 		</Technology>
 	</List>
 	<List>
 		<Project>Online Payment Challan Verification System</Project>
-		<Description>It's a financial project.&#xA;&#xD;‘Challan’ is most widely used name of a banking deposit in Bangladesh, where customers can make manual deposit into government fund in the form of cash or cheque for any services they require from the government. This online verification system is a third party tool, designed and implemented under the authority of Bangladesh Bank to confirm those manual deposits electronically as and when needed. This system has been used successfully by many agencies (private/government) in Bangladesh, where payment verification is prerequisite before any official process takes place. Some most common uses of ‘Challan(s)’ are fee for submitting government tenders, licences, taxes etc.&#xA;&#xD;My Roll was an 'all-stack web developer' in this project.</Description>
+		<Description>It's a financial project.&#xA;&#xD;‘Challan’ is most widely used name of a banking transaction in Bangladesh, where customers can make manual deposits into government fund in the form of cash or cheque for services they require. This online verification system is a third party tool, designed and implemented under the authority of Bangladesh Bank to confirm those manual deposits electronically as and when needed by the agencies. Need to mention many private and government agencies have been using this system successfully in Bangladesh, where payment verification is prerequisite before any official process can take place. Some most common uses of ‘Challan(s)’ are government fee for tenders, licences, loan etc.&#xA;&#xD;My Role: I was an 'all-stack web developer' in this project.</Description>
 		<Technology>i
 			<Name>HTML4/CSS2</Name>
-			<Highlights>Achievements:&#xA;I.Successful layout design of entire website, using CSS Float properties.&#xA;II.Efficient data manipulation and integration from various back end data sources.&#xA;III.Efficient site maintenance, while scaling up services like email notification etc.</Highlights>
+			<Highlights>Achievements:&#xA;I.Maximising user engagement by implementing responsive layout design, enhancing visual elements with behaviours.&#xA;II.Optimizing application for maximum speed and scalability by re-engineering Ajax and JQuery techniques.&#xA;III.Incorporate framework specific design to bridge gap between web client and server side infrastructure.&#xA;IV.Investigated server side validation to ensure server received clean and safe data and reduced processing time.&#xA;V.Effective communication and collaboration with stakeholders to reduce development time.&#xA;VI.Boosting support mechanism by introducing effective functionality like email notification to the client when process achieves its goal.</Highlights>
 			<Years>5 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>Python-Django</Name>
-			<Highlights>Achievements:&#xA;I.Gather requirements from end users and stakeholders.&#xA;II.Using Python-Django framework code to connect front with back end SQL Server.&#xA;III.Successful creation of business logic (Middle-Tier) as per requirements.</Highlights>
+			<Name>Python - Django Framework</Name>
+			<Highlights>Achievements:&#xA;I.Gathered, verified and enforced targeted user information into development.&#xA;II.Mapped, tested Python-Django framework’s connection sustainability with webserver and its data source (SQL Server).&#xA;III.Designed and engineered re-useable business logic (server-side input validation, data transformation and user notifications) in multi-tier architecture.</Highlights>
 			<Years>4 Years</Years>
 		</Technology>
 		<Technology>
 			<Name>JavaScript (JQuery)</Name>
-			<Highlights>Achievements:&#xA;I.Smooth implementation of features (UI/UX) as per user requirements.&#xA;II.Building reusable code like reading XML files,input validations etc.&#xA;III.Assured all user input is checked before submitting to the backend services.</Highlights>
+			<Highlights>Achievements:&#xA;I.Enhanced visual appeal and usability by simplifying user interactions.&#xA;II.Delivered reusable code (reading XML files, pre-defined input validations, Front/back end)&#xA;III.Worked closely with other developers and aligned with their regular updates (change in data format, modified attributes in objects, functionalities etc.)&#xA;IV.Review code and plan future upgrades with the team.&#xA;V.Monitored site performance, watched for traffic drops, caused by usability issues and rectify them.</Highlights>
 			<Years>4 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>Tomcat application server</Name>
+			<Name>Nginx Application server</Name>
 			<Highlights>Responsible for server configuration during development</Highlights>
 			<Years>3 Years</Years>
 		</Technology>
@@ -47,78 +47,73 @@
 	</List>
 	<List>
 		<Project>Customer Feedback System - CRM</Project>
-		<Description>Involved in upgrading customer feedback system for ‘Hyundai Cement Ltd.’ Core technologies used were Java-Spring Framework with MS SQL Server 10 as back end data source.</Description>
+		<Description>‘Hyundai Cement Ltd.’ is a leading global vendor of concrete, cement and construction machineries in Bangladesh. Well recognized for building and development sector in south East Asia. Hyundai’s corporate headquarters is located in Seoul, Korea and they are in business since 1964. They have three largest cement manufacturing plants located in the capital city of Dhaka, Bangladesh. The main objective of this feedback system was to capture their customer data. More precisely their likes and dislikes while doing business with the brand, so that Hyundai could improve their business process model (BPM) and increase profitability. This system had in-built data analysis mechanism in it, which could identify areas of strength and weaknesses by using online survey or individual feedbacks. However, main three goals were accomplished from this system and they were improved customer service, effective production and distribution. This project used Java-Spring Framework and MS SQL Server at the back end.&#xA;&#xD;My Role: As a ‘Java Developer’ design and develop business rules for the feedback system and produce data analysis report from the system. ‘iTex’ java library was used for report generation.</Description>
 		<Technology>
-			<Name>Java-Spring</Name>
-			<Highlights>Achievements:&#xA;I.Writing clean maintainable server-side business logic in multi-layer architecture using OOP.</Highlights>
+			<Name>Java - Spring Framework on Tomcat</Name>
+			<Highlights>Achievements:&#xA;I.Analysed and measured BPM and developed behavioural/constraints specific business rules like approved customer, general/transaction specific survey/feedback, times in a year, promotional feedback etc. using SDLC and OOP.&#xA;II.Engineered business rules repository and load system from repository.&#xA;III.Implemented access controlled based business rules management (Survey date, time, participants, location etc.)&#xA;IV.Documented BPM analysis, incorporating required business rules.</Highlights>
 			<Years>5 years</Years>
 		</Technology>
 		<Technology>
 			<Name>HTML4/CSS2</Name>
-			<Highlights>Achievements:&#xA;I.Actively participate in UI/UX design in planning activities.&#xA;II.Actively participate in UI/UX design in planning activities.</Highlights>
+			<Highlights>Achievements:&#xA;I.Preparing questionnaires, meeting client, assessing their need, using one-on-one, group and survey techniques.&#xA;II.Successful creation of prototype by clarifying project goals, requirements (System/functional/non-functional), using design tool (VB) from Visual Studio.&#xA;III.Participating webpage layout design with graphics and multimedia team applying UI/UX techniques.</Highlights>
 			<Years>5 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>MS SQL Server10</Name>
-			<Highlights>Achievements:&#xA;I.Designing the database using RDBMS and normalization.&#xA;II.Creating SQL queries, stored procedures and triggers.</Highlights>
+			<Name>MS SQL Server 10</Name>
+			<Highlights>Achievements:&#xA;I.Created normalized database using RDBMS concept, incorporating required business logic ensuring reliability and stability.&#xA;II.Boosted query performance by writing optimized SQL queries, stored procedures and event triggers.&#xA;III.Handled database procedures such as memory management, backup, recovery, upgrade, migration etc.</Highlights>
 			<Years>5 Years</Years>
 		</Technology>
 	</List>
 	<List>
 		<Project>Fast-Track Delivery System - SCM</Project>
-		<Description>Worked in a client project called ‘Fast-track’, which was for a delivery company in Bangladesh. The whole purpose of this project was to track their deliveries efficiently in real time. The product was developed and implemented in 2-tier client-server architecture using Visual Basic6.0 with MS SQL Server 7 as back end database.</Description>
+		<Description>‘Fast-Track Express’ was a leading private courier company in Bangladesh. They had over 200 branches all around the globe and famous for low cost services. The main purpose of this development was to locate their parcel delivery in real time. It was initially designed for 2 tier client server architecture in Visual Basic6.0 at its inception, but in later date due to technological shift the code was migrated to multi-tier web based application. The database it used was SQL 7 at the time.&#xA;&#xD;My Role: As a ‘Visual Basic Developer’ design and develop ‘Object Models and ActiveX Controls (GUI)’ for the system</Description>
 		<Technology>
-			<Name>Visual Basic6.0</Name>
-			<Highlights>Achievements:&#xA;I.Present innovative ideas for data input for system improvements using UI/UX design.&#xA;II.Participate in OOP, design, coding, testing (using Rational Rose and bug fixing)&#xA;III.Configuring product installation, version control, code review (for upgrades) and documenting analysis and design.</Highlights>
+			<Name>Visual Basic 6.0</Name>
+			<Highlights>Achievements:&#xA;I.System analysis and design using SDLC.&#xA;II.Designed and developed ActiveX controls (UI), threading (concurrent processing), programming with Object Linking and Embedding (OLE).&#xA;III.OOP using inheritance, polymorphism and encapsulation by facilitating association (aggregation and composition).&#xA;IV.Developed COM/DCOM components in client-server network.&#xA;V.Configuring product installation (setup file), version control, code review (for upgrades) and documenting analysis and design.</Highlights>
 			<Years>8 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>MS SQL Server7.0</Name>
-			<Highlights>Achievements:&#xA;I. Writing SQL queries and stored procedures.</Highlights>
+			<Name>MS SQL Server 7.0</Name>
+			<Highlights>Achievements:&#xA;I.Upgraded database structure enforcing RDBMS, OLAP and OLTP concept.&#xA;II.Capitalised ACID properties in database design&#xA;III.Refined server-side stored procedures and triggers for lag reduction and performance maximization.&#xA;IV.Strengthened database backup and recovery.</Highlights>
 			<Years>5</Years>
-		</Technology>
-		<Technology>
-			<Name>JSone</Name>
-			<Highlights>coming soon...</Highlights>
-			<Years>1</Years>
 		</Technology>
 	</List>
 	<List>
 		<Project>Online Hotel Booking System</Project>
-		<Description>coming soon... </Description>
+		<Description>‘Parjatans’ are the Luxury hotel chain brand in Bangladesh. It was a government initiative founded in 1972, especially designed for overseas travellers, aiming their transportation and camping need. This hotel chain has 22 branches across all the popular destinations in Bangladesh. I worked in one of their web development projects named ‘TripInfo’ as a ‘Freelance Back End Web Developer’ in the year 2013. It was an online hotel reservation system, where travellers could book their rooms online. The main feature in this system was ‘Multiple Bookings’ i.e. a traveller could book multiple destinations inside the hotel chain at a discounted price. This system had embedded security features to protect patron’s financial and personal information.&#xA;&#xD;My Role: As a ‘Back End Web Developer’, designed and developed server-side logic, by consolidating multiple bookings at a discounted price.</Description>
 		<Technology>
-			<Name>PHP-Laravel</Name>
-			<Highlights>PHP Server side coding. coming soon...</Highlights>
-			<Years>3 Years</Years>
+			<Name>PHP - Laravel Framework on Apache</Name>
+			<Highlights>Achievements:&#xA;I.Analysing and developing back-end services to interchange data between server and front end using IDEs: NetBeans 8.2, Visual Studio etc.&#xA;II.Optimizing database (indexing, repairing tables, reducing space, SSH) to ensure front-end receiving data efficiently.&#xA;III.Integrating user-facing elements with data binding using JavaScript, JQuery.&#xA;IV.Writing clean maintainable OO business logic and efficient SQL to manipulate data.&#xA;V.Designing test plan for usability, functional, performance and unit testing.&#xA;VI.Maintaining website via updating scripts, bug fixing, improving functionalities etc.</Highlights>
+			<Years>2 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>PhpMyAdmin</Name>
-			<Highlights>coming soon...</Highlights>
-			<Years>5</Years>
+			<Name>XAMPP - PhpMyAdmin - MySQL</Name>
+			<Highlights>Achievements:&#xA;I.Configuring development environment by using XAMPP.&#xA;II.Administering/managing MySQL database.&#xA;III.Importing/exporting internal/external tables, SQL, XML etc. as required.&#xA;IV.Backing up MySQL database periodically.</Highlights>
+			<Years>2 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>JSON/XML</Name>
-			<Highlights>coming soon...</Highlights>
+			<Name>XML - JSON - Ajax</Name>
+			<Highlights>Achievements:&#xA;I.Extracting data from XML/JSON to populate dynamic HTML content.&#xA;II.Creating files (XML/JSON) for transferring/sharing that required by other applications.&#xA;III.Interacting with the server in online transaction using JavaScript (Ajax).</Highlights>
 			<Years>3 years</Years>
 		</Technology>
 	</List>
 	<List>
-		<Project>SCM-Inventory System</Project>
-		<Description>coming soon... </Description>
+		<Project>Allegro Inventory System - SCM</Project>
+		<Description>Allegro Logistics Ltd. was a freight and logistic service in Bangladesh. Allegro’s main business was to manage flow of goods from manufacturers – warehouse - point of sale. This inventory system designed to keep track of each shipment and returned goods as it entered and left the warehouse. It was built in Visual Basic 6 in its Client-Server environment. However, in later date due to technological shift the VB code was completely migrated to J2EE framework in 2001.&#xA;&#xD;My Role: As a ‘Java Developer’, migrated VB code to J2EE framework with JSP and JDBC connectivity.</Description>
 		<Technology>
-			<Name>Java-Spring</Name>
-			<Highlights>Adopting web tech. Coming soon...</Highlights>
+			<Name>JSP- J2EE- JDBC</Name>
+			<Highlights>Achievements:&#xA;I.Consulting, researching and evaluating system requirements in Java platform for VB code migration.&#xA;II.Developed layered pattern architecture (presentation, application, business and data access) using object oriented approach (OOP), incorporating NEW classes, functions and methods in core Java.&#xA;III.Developed JDBC connectivity with Db2 using data access layer.&#xA;IV.Updating technical documentations such as existing system development architecture and design (J2EE platform).&#xA;V.Improving existing features, bug fixing and refactoring.</Highlights>
 			<Years>5 Years</Years>
 		</Technology>
 		<Technology>
-			<Name>Visual Basic</Name>
-			<Highlights>coming soon...</Highlights>
+			<Name>Visual Basic 6.0</Name>
+			<Highlights>Achievements:&#xA;I.Investigating class hierarchy, functions and methods written in Visual Basic before migrating code into core Java.&#xA;II.Performing code optimisation by removing bottleneck features from Visual Basic to Core Java.&#xA;III.Documenting upgraded features, functional description of the changes.</Highlights>
 			<Years>8 years</Years>
 		</Technology>
 		<Technology>
-			<Name>JavaScript (JQuery)</Name>
-			<Highlights>coming soon...</Highlights>
-			<Years>4 years</Years>
+			<Name>DB2 Database</Name>
+			<Highlights>Achievements:&#xA;I.Migrated SQL Server database to DB2.&#xA;II.Developed SQL queries, stored procedures and triggers to extract data from DB2 tables.&#xA;III.Created test plans and then setup, executed and validated outputs.&#xA;IV.Documented test case specifications, test plans and resulted outputs.</Highlights>
+			<Years>1 year</Years>
 		</Technology>
 	</List>
 </Experience>
